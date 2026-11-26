@@ -17,7 +17,7 @@ qbittorrent-nox 靜態編譯執行檔備份，Linux x86_64，qBittorrent 4.1.9 �
 
 [逐檔比對表](https://jeffhsieh.com/downloads/qbittorrent-sha256-comparison-2026-11-27.tsv)列出上游檔名、SHA-256、對應的備份檔案與來源連結。[備份說明文章](https://jeffhsieh.com/posts/qbittorrent-nox-backup-pt/)也有上游 Release 的截圖與使用說明。
 
-SHA-256 一致表示比對的檔案內容一致；無法僅憑雜湊確認最初由誰編譯。上游仍保留部分舊版，例如 [4.3.9／libtorrent 1.2.14](https://github.com/userdocs/qbittorrent-nox-static/releases/tag/release-4.3.9_v1.2.14)；可用版本以上游頁面為準。
+SHA-256 一致表示比對的檔案內容一致。上游仍保留部分舊版，例如 [4.3.9／libtorrent 1.2.14](https://github.com/userdocs/qbittorrent-nox-static/releases/tag/release-4.3.9_v1.2.14)；可用版本以上游頁面為準。
 
 ## 檔名規則
 
@@ -33,6 +33,6 @@ qbittorrent-nox --version
 
 ## 說明
 
-- 這些不是官方發行檔，是早期第三方靜態編譯的備份，編譯者不明，請自行評估後使用。
+- 這些是第三方靜態編譯檔案的備份，並非 qBittorrent 官方發行檔，請自行評估後使用。
 - 舊版本內含的函式庫不會再更新。
 - qBittorrent 以 GPL-2.0-or-later 授權，原始碼：https://github.com/qbittorrent/qBittorrent （各版本對應 `release-<版本>` tag）。libtorrent 原始碼：https://github.com/arvidn/libtorrent
