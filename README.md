@@ -2,6 +2,8 @@
 
 qbittorrent-nox 靜態編譯執行檔備份，Linux x86_64，qBittorrent 4.1.9 到 4.6.7，搭配不同版本的 libtorrent。
 
+**備份庫的執行檔全部適用於 Linux x86_64（amd64，64 位元 x86）架構。** 這裡沒有 32 位元 x86 或 ARM／ARM64 版本；其他架構請查看上游的發布頁面。
+
 檔案都在 [Releases](https://github.com/lk86jeff/qbittorrent-nox-static-backup/releases)，依系列分成 `4.1` 到 `4.6` 六個 Release，每個 Release 附 `SHA256SUMS`。
 
 ## 檔案來源與比對
